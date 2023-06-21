@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./result.html" method="get">
+        <fieldset>
+            <legend>A/S 제출 양식</legend>
+            <div>
+                <label for="username">아이디: </label>
+                <input type="text" name="username" placeholder="ID" autocomplete="on" required>
+            </div>
+            <div>
+                <label for="password">비밀번호: </label>
+                <input type="password" name="password" placeholder="password" autocomplete="on" required>
+            </div>
+            <div>
+                <label for="age">나이: </label>
+                <input type="number" name="age" min="0" max="100" step="10" autocomplete="off">
+            </div>
+            <div>
+                <label for="username">성별: </label>
+                <input type="checkbox" name="type_1_1" value="Man">
+                <label for="type_1_1">남성: </label>
+                <input type="checkbox" name="type_1_2" value="WOMAN">
+                <label for="type_1_2">여성: </label>
+            </div>
+            <div>
+                <label for="date">구매 날짜: </label>
+                <select name="year">
+                <option value="year1">2019년</option>
+                <option value="year2">2020년</option>
+                <option value="year3">2021년</option>
+                <option value="year4">2022년</option>
+                <option value="year5">2023년</option>  
+                </select>
+                <select name="month">
+                <option value="month1">1월</option>
+                <option value="month2">2월</option> 
+                <option value="month3">3월</option> 
+                <option value="month4">4월</option> 
+                <option value="month5">5월</option> 
+                <option value="month6">6월</option>
+                <option value="month7">7월</option>
+                <option value="month8">8월</option>
+                <option value="month9">9월</option>
+                <option value="month10">10월</option>
+                <option value="month11">11월</option>
+                <option value="month12">12월</option>  
+                </select>
+                <select name="day">
+                <option value="day1">1일</option>
+                <option value="day2">2일</option> 
+                <option value="day3">3일</option> 
+                <option value="day4">4일</option> 
+                <option value="day5">5일</option>
+                <option value="day6">6일</option>
+                <option value="day7">7일</option>
+                <option value="day8">8일</option>
+                <option value="day9">9일</option>
+                <option value="day10">10일</option>
+                <option value="day11">11일</option>
+                <option value="day12">12일</option>
+                <option value="day13">13일</option>
+                <option value="day14">14일</option>
+                <option value="day15">15일</option>
+                <option value="day16">16일</option>
+                <option value="day17">17일</option>
+                <option value="day18">18일</option>
+                <option value="day19">19일</option>
+                <option value="day20">20일</option>
+                <option value="day21">21일</option>
+                <option value="day22">22일</option>
+                <option value="day23">23일</option>
+                <option value="day24">24일</option>
+                <option value="day25">25일</option>
+                <option value="day26">26일</option>
+                <option value="day27">27일</option>
+                <option value="day28">28일</option>
+                <option value="day29">29일</option>
+                <option value="day30">30일</option>
+                <option value="day31">31일</option>
+                </select>
+            </div>
+            <div>
+                <label for="summary">내용: </label>
+                <textarea name="summary" rows="10" cols="30"></textarea>
+            </div>
+            <div>
+                <select name="type">
+                <option value="T_AS_1">환불</option>
+                <option value="T_AS_2">고장 신고</option>
+                <option value="T_AS_3">기타</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" name="type_2_1" value="1day">
+                <label for="type_2_1">1일 이내: </label>
+                <input type="checkbox" name="type_2_2" value="1week">
+                <label for="type_2_2">1주 이내: </label>
+                <input type="checkbox" name="type_2_3" value="1month">
+                <label for="type_2_3">1달 이내: </label>
+            </div>
+            <div>
+                <input type="radio" name="type_3_1" value="emergency">
+                <label for="type_3_1">긴급: </label>
+                <input type="radio" name="type_3_1" value="normal" checked>
+                <label for="type_3_2">일반: </label>
+            </div>
+            <div>
+                <button type="submit">제출</button>
+            </div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
